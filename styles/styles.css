@@ -87,7 +87,7 @@ main img{
 
 .box {
     margin: 1rem;
-    border: 1px solid rgba (0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
@@ -127,7 +127,7 @@ header, footer {
 
           .grid {
             display: grid;
-            align-items: centers;
+           
           }
           
           main {
