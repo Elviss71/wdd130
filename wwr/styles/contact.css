@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  --primary-color: #003566;
+  --secondary-color: #ffb606;
+  --sccent1-color: #001d3d;
+  --sccent2-color: #444444;
+
+  --heading-font: 'Noto', serif;
+  --paragraph-font: 'Barlow', sans-serif;
+
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #003566;
+  --nav-link-color: #003566;
+  --nav-background-color: #E7C24F;
+  --nav-hover-link-color: #E7C24F;
+  --nav-hover-background-color: #396E94;
+}
+
+.menu a {
+  text-decoration: none;
+}
+body {
+  max-width: 930px;
+  margin: 0 auto; 
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-family: var(--font-family);
+    color: black;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+   
+
+  /* Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--nav-background-color);
+  border: 2px solid black; /*black border */
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black; /* black border */
+  padding: 10px 20px; /*  button shape */
+  border-radius: 5px; /* Round the corners */
+}
+
+.menu a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+/* Logo */
+.header img .logo  {
+  max-width: 100%;
+  height: auto;
+  float: right; /* Align logo to the left */
+}
+
+.logo img{
+  margin: 0 0.25rem 0 1rem;
+}
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .header {
+      grid-template-columns: 1fr; /* Make it a single column layout on small screens */
+      text-align: center;
+  }
+  
+  .menu {
+      margin-top: 20px;
+      flex-direction: column; /* Stack navigation buttons vertically */
+  }
+  
+  .menu a {
+      margin-bottom: 10px;
+  }
+  
+  .header img {
+      float: none; /* Remove float on small screens */
+  }
+}
+
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: var(--nav-background-color);
+
+  /*padding: 20px;*/
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  color:black;
+  position: absolute;
+  bottom: 50;
+  left:40%;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.sociallinks a img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.menu {
+float:right;
+padding-top: 100px;
+padding-right: 100px;
+}
+
+
+
+  /* Change styles for span on extra small screens */
+  @media screen and (max-width: 300px) {
+  span.psw {
+  display: block;
+  float: none;
+  }
+}
+
+/* Additional CSS for the Contact Us page */
+
+.contact-info {
+  padding: 20px;
+  border: 2px solid var(--primary-color);
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.google-map {
+  /* Style for embedded Google Map */
+}
+
+.employee-profiles {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.employee {
+  text-align: center;
+}
+
+.employee img {
+  max-width: 100px;
+  border-radius: 50%;
+}
+
+.employee p {
+  margin-top: 10px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.contact-form label[for="message"] {
+  margin-top: 10px;
+}
+
+.contact-form input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+.submit-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-color);
+}

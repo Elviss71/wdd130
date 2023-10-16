@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - White Water Rafting</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img  class="logo" src="images/logo.png" alt="White Water Rafting Logo" width="250" height="200">
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+      
+        <h1>White Water Rafting</h1>
+
+        <p>Send us a message!</p>
+
+        <p>Call us! 951 228 16 47</p>
+
+        <p>Email us at: <a href="mailto:correo@byui.edu">var12013@byui.edu</a></p>
+
+        <p>Visit us at: <address>Oaxaca Mexico</address></p>
+
+        <div class="google-map">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.3491328594443!2d-96.72364694966085!3d17.06257639053659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdcd55635fbcd5%3A0x7587da10e2c6d8a!2sOaxaca%2C%20Mexico!5e0!3m2!1sen!2sus!4v1632751939381!5m2!1sen!2sus"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+    ></iframe>
+</div>
+        
+        <div class="employee-profiles">
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p>John Doe, Tour Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p>Jane Smith, Reservation Specialist</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p>Michael Johnson, Customer Support</p>
+            </div>
+        </div>
+        
+    </main>
+
+
+  <form action="/submit.php" class="contact-form">
+    <h2>Send us a message</h2>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label>Choose a Purpose:</label>
+    <input type="radio" id="general" name="purpose" value="General Inquiry">
+    <label for="general">General Inquiry</label>
+
+    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+    <label for="reservation">Reservation Question</label>
+
+    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+    <label for="suggestion">Website Suggestion</label>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <label>
+        <input type="checkbox" name="subscribe" value="yes">
+        Please subscribe me to the monthly newsletter
+    </label>
+
+    <button type="submit" class="submit-button">Submit</button>
+</form>
+</main>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 White Water Rafting | Created by Marco Varela</p>
+        <nav class="sociallinks">
+        <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="Facebook" width="40" height="40"></a>
+        <a href="https://www.twitter.com">
+            <img src="images/twitter.png" alt="Twitter" width="40" height="40"></a>
+        <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="Instagram" width="40" height="40"></a>
+        </nav>
+
+    </footer>
+</body>
+</html>
