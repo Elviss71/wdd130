@@ -135,6 +135,8 @@ footer p{
   justify-content: center;
   color:black;
   position: fixed;
+  bottom: 0;
+  
   left:40%;
 }
 
