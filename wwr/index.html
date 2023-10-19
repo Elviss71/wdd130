@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage - White Water Rafting</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <header>
+        <img  class="logo" src="images/logo.png" alt="White Water Rafting Logo" width="250" height="200">
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+
+            <style>
+                body {
+                    background-color: #bbd9ec;
+                }
+            </style>
+
+        </nav>
+    </header>
+
+<!-- New -->
+    
+    <main>
+        <!-- Large Full-Width Image with Heading -->
+        <section class="hero">
+            <img src="images/raftinghero.jpg" alt="White Water Rafting" class="full-width-image">
+            <h1>Welcome to the Thrill of White Water Rafting</h1>
+        </section>
+
+        <!-- Newsletter Sign-Up Form -->
+        <section class="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form action="subscribe.php" method="post">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready for an Adventure?</h2>
+            <a href="trips.html" class="cta-link">Explore Our Trips</a>
+        </section>
+
+        <!-- CSS Grid Layout with Images and Content -->
+        <section class="grid-layout">
+            <div class="grid-item">
+                <img src="images/rafting01.jpg" alt="Rafting Adventure 1">
+                <p>Experience the thrill of riding the rapids in the heart of nature.</p>
+            </div>
+            <div class="grid-item">
+                <img src="images/rafting02.jpg" alt="Rafting Adventure 2">
+                <p>Our expert guides ensure your safety while you have the time of your life.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 White Water Rafting | Created by Marco Varela</p>
+        <nav class="sociallinks">
+        <a href="https://www.facebook.com">
+            <img src="images/facebook.png" alt="Facebook" width="40" height="40"></a>
+        <a href="https://www.twitter.com">
+            <img src="images/twitter.png" alt="Twitter" width="40" height="40"></a>
+        <a href="https://www.instagram.com">
+            <img src="images/instagram.png" alt="Instagram" width="40" height="40"></a>
+        </nav>
+
+    </footer>
+</body>
+</html>

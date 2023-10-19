@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+:root {
+  --primary-color: #003566;
+  --secondary-color: #ffb606;
+  --sccent1-color: #001d3d;
+  --sccent2-color: #444444;
+
+  --heading-font: 'Noto', serif;
+  --paragraph-font: 'Barlow', sans-serif;
+
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #003566;
+  --nav-link-color: #003566;
+  --nav-background-color: #E7C24F;
+  --nav-hover-link-color: #E7C24F;
+  --nav-hover-background-color: #396E94;
+}
+
+.menu a {
+  text-decoration: none;
+}
+body {
+  max-width: 930px;
+  margin: 0 auto; 
+}
+
+h1, h2, h3 {
+    font-family: var(--font-family);
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-family: var(--font-family);
+    color: black;
+  }
+
+
+  p.intro {
+    font-family: var(--font-family);
+    color: rgb(244, 247, 248);
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 870px;
+    margin: 0 auto;
+  }
+   
+
+  /* Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--nav-background-color);
+  border: 2px solid black; /*black border */
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid black; /* black border */
+  padding: 10px 20px; /*  button shape */
+  border-radius: 5px; /* Round the corners */
+}
+
+.menu a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+/* Logo */
+.header img .logo  {
+  max-width: 100%;
+  height: auto;
+  float: right; /* Align logo to the left */
+}
+
+.logo img{
+  margin: 0 0.25rem 0 1rem;
+}
+/* Adjustments for small screens */
+@media (max-width: 768px) {
+  .header {
+      grid-template-columns: 1fr; /* Make it a single column layout on small screens */
+      text-align: center;
+  }
+  
+  .menu {
+      margin-top: 20px;
+      flex-direction: column; /* Stack navigation buttons vertically */
+  }
+  
+  .menu a {
+      margin-bottom: 10px;
+  }
+  
+  .header img {
+      float: none; /* Remove float on small screens */
+  }
+}
+
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: var(--nav-background-color);
+
+  /*padding: 20px;*/
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+  color:black;
+  position: absolute;
+  bottom: -1370px;
+  left:40%;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.sociallinks a img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.menu {
+float:right;
+padding-top: 100px;
+padding-right: 100px;
+}
+
+
+
+  /* Change styles for span on extra small screens */
+  @media screen and (max-width: 300px) {
+  span.psw {
+  display: block;
+  float: none;
+  }
+}
+
+
+
+/* Call to Action */
+.call-to-action {
+  background-color: var(--sccent1-color);
+  color: var(--headline-color-on-color);
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.call-to-action a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Trip Descriptions */
+.trip {
+  background-color: floralwhite;
+  color: var(--headline-color-on-color);
+  padding: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.trip h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.trip img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Table of Available Trips */
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--sccent1-color);
+  color: var(--headline-color-on-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.trip-table th, .trip-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.trip-table th {
+  background-color: var(--primary-color);
+  color: var(--headline-color-on-color);
+}
+
+.trip-table td {
+  background-color: var(--sccent2-color);
+}
+
+/* Style for the Trips page wireframe link */
+.wireframe-link {
+  display: block;
+  text-align: center;
+  margin: 20px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}

@@ -42,10 +42,12 @@ h1, h2, h3 {
     text-decoration: none;
   }
   
+  
   main {
-    max-width: 800px;
+    max-width: 870px;
     margin: 0 auto;
   }
+   
   
 .hero {
     position: relative;
@@ -187,7 +189,7 @@ footer p{
   justify-content: center;
   color:black;
   position: absolute;
-  bottom: 50;
+  bottom: -640px;
   left:40%;
 }
 

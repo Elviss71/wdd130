@@ -42,8 +42,9 @@ h1, h2, h3 {
     text-decoration: none;
   }
   
+  
   main {
-    max-width: 800px;
+    max-width: 870px;
     margin: 0 auto;
   }
    
@@ -135,7 +136,7 @@ footer p{
   justify-content: center;
   color:black;
   position: absolute;
-  bottom: -1300px;
+  bottom: -1100px;
   left:40%;
 }
 
@@ -176,9 +177,7 @@ padding-right: 100px;
   border-radius: 5px;
 }
 
-.google-map {
-  /* Style for embedded Google Map */
-}
+
 
 .employee-profiles {
   display: flex;
@@ -205,6 +204,7 @@ padding-right: 100px;
   padding: 20px;
   border: 2px solid var(--primary-color);
   border-radius: 5px;
+  background-color: floralwhite;
 }
 
 .contact-form h2 {
