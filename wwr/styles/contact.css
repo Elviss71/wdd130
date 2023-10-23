@@ -137,8 +137,9 @@ footer p{
   justify-content: center;
   color:black;
   position: absolute;
-  bottom: -1050px;
-  left:40%;
+  bottom: -1100px;
+  padding-left: 30px;
+  
 
 margin-top: 1em;
     border-top: 1px solid #000;
