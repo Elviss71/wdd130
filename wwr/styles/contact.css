@@ -132,18 +132,18 @@ footer {
 }
 
 footer p{
-<<<<<<< HEAD
+
   display: flex;
   justify-content: center;
   color:black;
   position: absolute;
   bottom: -1100px;
   left:40%;
-=======
+
 margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
->>>>>>> 0fcac67bc3c63f645cb32d72f9955198f39a2972
+
 }
 
 .sociallinks {
