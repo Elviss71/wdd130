@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+body {
+  background-color:#bbd9ec;
+}
+
 :root {
   --primary-color: #003566;
   --secondary-color: #ffb606;
