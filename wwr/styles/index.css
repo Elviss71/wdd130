@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+body {
+  background-color:#bbd9ec;
+}
+
 :root {
   --primary-color: #003566;
   --secondary-color: #ffb606;
@@ -51,6 +55,7 @@ h1, h2, h3 {
   main {
     max-width: 870px;
     margin: 0 auto;
+   
   }
    
    
@@ -69,7 +74,6 @@ h1, h2, h3 {
 .menu {
   display: flex;
   gap: 20px;
-  background-color: #bbd9ec;
 }
 
 .menu a {
@@ -175,9 +179,7 @@ padding-right: 100px;
   border-radius: 5px;
 }
 
-.google-map {
 
-}
 
 .employee-profiles {
   display: flex;
