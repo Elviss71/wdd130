@@ -20,6 +20,11 @@
   --nav-hover-background-color: #396E94;
 }
 
+footer p{
+  color:black;
+  bottom: -1100px;
+}
+
 .menu a {
   text-decoration: none;
 }
@@ -64,6 +69,7 @@ h1, h2, h3 {
 .menu {
   display: flex;
   gap: 20px;
+  background-color: #bbd9ec;
 }
 
 .menu a {
@@ -130,15 +136,6 @@ footer {
   background-color: var(--nav-background-color);
 
   /*padding: 20px;*/
-}
-
-footer p{
-  display: flex;
-  justify-content: center;
-  color:black;
-  position: absolute;
-  bottom: -1030px;
-  left:40%;
 }
 
 .sociallinks {

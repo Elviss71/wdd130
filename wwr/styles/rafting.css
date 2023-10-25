@@ -23,9 +23,12 @@
 .menu a {
   text-decoration: none;
 }
+
+
 body {
   max-width: 930px;
   margin: 0 auto; 
+  background-color:#bbd9ec;
 }
 
 h1, h2, h3 {

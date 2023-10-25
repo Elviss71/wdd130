@@ -20,11 +20,15 @@
   --nav-hover-background-color: #396E94;
 }
 
+
+
+
 .menu a {
   text-decoration: none;
 }
 body {
   max-width: 930px;
+  background-color: #bbd9ec;
   margin: 0 auto; 
 }
 
